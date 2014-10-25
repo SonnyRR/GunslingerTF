@@ -1,19 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+html {
+    background-color: #e6e9e9;
+    background-image: -webkit-linear-gradient(270deg,rgb(222, 15, 23) 15%,rgba(82, 199, 140, 0.72) 100%);
+    background-image: linear-gradient(270deg,rgba(70, 255, 141, 0.6) 0%,rgba(149, 119, 19, 0.76) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding:15px;
+  font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+  color:rgb(167, 255, 0);
+  margin:0 0 21px;
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 10px;
+    color:rgb(255, 255, 255)
 }
 
 h1, h2, h3 {
@@ -21,7 +29,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:31px;
 }
 
 h2 {
@@ -29,18 +37,18 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#fff;
 }
 
 a {
-  color:#39c;
-  font-weight:400;
-  text-decoration:none;
+  color:rgb(0, 0, 0);
+  font-weight:150;
+  text-decoration:inherit;
 }
 
 a small {
-  font-size:11px;
-  color:#777;
+  font-size:15px;
+  color:rgba(255, 255, 255, 0.7);
   margin-top:-0.6em;
   display:block;
 }
@@ -59,15 +67,15 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
+  color:rgb(74, 69, 85);
   font-size:12px;
 }
 
 pre {
-  padding:8px 15px;
-  background: #f8f8f8;  
+  padding: 14px 12px;
+  background: rgba(145, 145, 145, 0.15);  
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:2px solid rgba(0, 186, 255, 0.44);
   overflow-x: auto;
 }
 
@@ -130,8 +138,8 @@ header li {
 
 header ul a {
   line-height:1;
-  font-size:11px;
-  color:#999;
+  font-size:12px;
+  color:rgb(155, 2, 2);
   display:block;
   text-align:center;
   padding-top:6px;
@@ -139,8 +147,8 @@ header ul a {
 }
 
 strong {
-  color:#222;
-  font-weight:700;
+  color:#8100f0;
+  font-weight:250;
 }
 
 header ul li + li {
@@ -160,13 +168,17 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:560px;
   float:right;
   padding-bottom:50px;
 }
 
+li {
+    width:670;
+}
+
 small {
-  font-size:11px;
+  font-size:0px;
 }
 
 hr {
@@ -177,10 +189,10 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:295px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:0px;
 }
 
 @media print, screen and (max-width: 960px) {
