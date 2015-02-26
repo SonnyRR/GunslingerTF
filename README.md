@@ -25,16 +25,16 @@ Here are some of the features:
 
 Custom Binds:
 
-"F2" = Reloads the config.
-"/" = Toggles your viewmodels on/off. 
-"F11" = Checks if wait is enabled on the server.
-Holding down "F1" = All in one fix it button.
-Holding down "Mouse4" and moving the scroll wheel up and down = Viewmodel FOV switcher.
-"END" = Suicide.
-"Pause" = Pauses the game(Does not work on all keyboards).
-"1-9" = Switches classes on the numpad.
-"Keypad ENTER" = 1st Press: Turns OFF Text Chat. 2nd Press: Turns OFF Voice Chat. 3rd Press: Toggles ON Text And Voice Chat.
-Hold "ALT+6-9" to switch through the 4 default loadout slots + a hidden 5th one.
+- "F2" = Reloads the config.
+- "/" = Toggles your viewmodels on/off. 
+- "F11" = Checks if wait is enabled on the server.
+- Holding down "F1" = All in one fix it button.
+- Holding down "Mouse4" and moving the scroll wheel up and down = Viewmodel FOV switcher.
+- "END" = Suicide.
+- "Pause" = Pauses the game(Does not work on all keyboards).
+- "1-9" = Switches classes on the numpad.
+- "Keypad ENTER" = 1st Press: Turns OFF Text Chat. 2nd Press: Turns OFF Voice Chat. 3rd Press: Toggles ON Text And Voice Chat.
+- Hold "ALT+6-9" to switch through the 4 default loadout slots + a hidden 5th one.
 
 Startup time may be slow so don't worry the game is preloading its necessary files. 
 I am looking for general feedback and hopefully, if there is enough interest I will be making more changes and improvements.
