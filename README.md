@@ -1,8 +1,7 @@
 Sonny's TF2 config
 ===========
-Hello, I have been slowly working on a private config for my needs in the last 10 months or so since no config could suit my needs and did not made a 
-huge improvement on the stability of the game. I have reached a point that I feel the config is close to completion 
-and maybe of use of some players. The config is written to take the most advantage out of my PC with a moderate graphical sacrifice, it
+
+The config is written to take the most advantage out of my PC with a moderate graphical sacrifice, it
 consists of multiple layers and a great deal of features. It may be unstable on some machines and I can't guarantee that you are not going to get crashes 
 and stability issues. The config is based around in-game customizability and gaining advantage over the enemy.
 
