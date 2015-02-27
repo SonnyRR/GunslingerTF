@@ -56,3 +56,7 @@ The REWORKED version.
 
 This is a modification of the main config that removes some useless binds and replaces them with console commands(aliases).
 There are no major features removed and there is no performance loss.
+=========
+
+Installation
+=========
