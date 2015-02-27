@@ -78,7 +78,9 @@ Launch options
 
 If you want the most of your machine use -dxlevel 81 otherwise use 95.
 
--novid -console  -w XXXX -h XXXX
+-novid -console  -w XXXX -h XXXX -dxlevel XX
+  
+  > It is recommended that you remove dxlevel after the first start. It is known to cause crashes on some systems.
 
 Where XXXX insert a resolution 1x/2x/3x lower than your native one, it helps performance a lot.
 
