@@ -64,3 +64,4 @@ Installation
 Download the master ZIP file or copy RAW text of your desired config and drag and drop your .cfg file in:
 "Steam\steamapps\common\Team Fortress 2\tf\custom\my_custom_files\cfg\autoexec.cfg"
 
+If you have any other configs created with clugu or some other config generator it is recommended that you download the REWORKED version because some of the features may not be working correctly.
