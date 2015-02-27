@@ -1,6 +1,9 @@
 Sonny's TF2 config
 ===========
 
+Please scroll to the bottom on how to install it and make a back up of your CFG folder.
+You can always refer to the config by opening it in a text editor like notepad++. There is described almost anything you will need and how it works.
+
 The config is written to take the most advantage out of my PC with a moderate graphical sacrifice, it
 consists of multiple layers and a great deal of features. It may be unstable on some machines and I can't guarantee that you are not going to get crashes and stability issues on CPU's with less than 4 cores. The config is based around in-game customizability, proper use of hardware resources, AIO packaging and gaining advantage over the enemy. 
 
