@@ -66,7 +66,9 @@ Installation
 
 Download the master ZIP file or copy RAW text of your desired config and drag and drop your .cfg file in:
 "Steam\steamapps\common\Team Fortress 2\tf\custom\my_custom_files\cfg\autoexec.cfg"
+
 Optional: Make sure to make this file READ-ONLY to prevent any changes in the settings of this config.
+
 Paste surfaceproperties.txt in /custom/my_custom_files/scripts.
 
 If you have any other configs created with clugu or some other config generator it is recommended that you download the REWORKED version because some of the features may not be working correctly.
@@ -75,7 +77,10 @@ Launch options
 =========
 
 If you want the most of your machine use -dxlevel 81 otherwise use 95.
+
 -novid -console  -w XXXX -h XXXX
+
 Where XXXX insert a resolution 1x/2x/3x lower than your native one, it helps performance a lot.
+
 These are the launch options that I have the most success with. Feel free to add your own or refer to the config itself for more options.
 
