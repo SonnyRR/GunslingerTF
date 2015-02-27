@@ -51,4 +51,8 @@ Using meb's benchmark 1 demo with 341.44 Nvidia drivers; lo: -novid -console  -w
 I get constant 150 fps in competitive servers almost everywhere with small drops on some middles (~138-144 fps), but the game doesn't choke on itself.
 In valve pubs I get around ~120-150 fps with no serious drops.
 
+The REWORKED version.
+=========
 
+This is a modification of the main config that removes some useless binds and replaces them with console commands(aliases).
+There are no major features removed and there is no performance loss.
