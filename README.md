@@ -56,7 +56,10 @@ The REWORKED version.
 
 This is a modification of the main config that removes some useless binds and replaces them with console commands(aliases).
 There are no major features removed and there is no performance loss.
-=========
 
 Installation
 =========
+
+Download the master ZIP file or copy RAW text of your desired config and drag and drop your .cfg file in:
+"Steam\steamapps\common\Team Fortress 2\tf\custom\my_custom_files\cfg\autoexec.cfg"
+
