@@ -2,8 +2,9 @@ Sonny's TF2 config
 ===========
 
 The config is written to take the most advantage out of my PC with a moderate graphical sacrifice, it
-consists of multiple layers and a great deal of features. It may be unstable on some machines and I can't guarantee that you are not going to get crashes 
-and stability issues. The config is based around in-game customizability and gaining advantage over the enemy.
+consists of multiple layers and a great deal of features. It may be unstable on some machines and I can't guarantee that you are not going to get crashes and stability issues on CPU's with less than 4 cores. The config is based around in-game customizability, proper use of hardware resources, AIO packaging and gaining advantage over the enemy. 
+
+Recommended for competitive players aswell as players getting into TF2. 
 
 Here are some of the features:
 
@@ -55,7 +56,7 @@ The REWORKED version.
 =========
 
 This is a modification of the main config that removes some useless binds and replaces them with console commands(aliases).
-There are no major features removed and there is no performance loss.
+There are no major features removed and there is no performance loss. For now this has its own version in the near future it maybe changed in the main config.
 
 Installation
 =========
