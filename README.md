@@ -4,6 +4,8 @@ Sonny's TF2 config
 Please scroll to the bottom on how to install it and make a back up of your CFG folder.
 You can always refer to the config by opening it in a text editor like notepad++. There is described almost anything you will need and how it works.
 
+Screenshots: https://imgur.com/a/fGAiN
+
 FULL version
 =======
 
