@@ -45,7 +45,9 @@ Custom Binds:
 Startup time may be slow so don't worry the game is preloading its necessary files. 
 I am looking for general feedback and hopefully, if there is enough interest I will be making more changes and improvements.
 
-Here is a benchmark:
+Here are some benchmarks:
+  >FULL Version
+
 - CPU: Intel Core 2 Quad Q6600 overclocked  to 2.80 GHz; standart 2 fan cooling
 - GPU: Nvidia GeForce GTS250 DK Edition 1 GB DDR3 
 - RAM: 2x2 A-Data (Unknown MhZ)
@@ -54,6 +56,18 @@ Here is a benchmark:
 
 2639 frames 38.561 seconds 78.44 fps (14.61 ms/f) 2.761 fps variability.
 Using meb's benchmark 1 demo with 341.44 Nvidia drivers; lo: -novid -console  -w 1280 -h 1024.
+
+  >CORE Version
+Laptop Fujitsu Lifebook AH544
+- CPU: Intel Core i7-4702MQ 3.20 GhZ
+- GPU: NVIDIA GeForce GT 720M (2GB DDR3)
+- RAM: 1x 8GB DDR3, 1600Mhz
+- HDD: 1TB
+- OS: Win 7 Ultimate x64
+
+2639 frames 38.561 seconds 102.28 fps (2.18 ms/f) 2.369 fps variability.
+Using meb's benchmark 1 demo; lo: -novid -console -dxlevel 81.
+
 
 I get constant 150 fps in competitive servers almost everywhere with small drops on some middles (~138-144 fps), but the game doesn't choke on itself.
 In valve pubs I get around ~120-150 fps with no serious drops.
