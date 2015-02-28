@@ -58,6 +58,7 @@ Here are some benchmarks:
 Using meb's benchmark 1 demo with 341.44 Nvidia drivers; lo: -novid -console  -w 1280 -h 1024.
 
   >CORE Version
+  
 Laptop Fujitsu Lifebook AH544
 - CPU: Intel Core i7-4702MQ 3.20 GhZ
 - GPU: NVIDIA GeForce GT 720M (2GB DDR3)
