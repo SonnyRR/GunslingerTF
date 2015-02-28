@@ -4,6 +4,9 @@ Sonny's TF2 config
 Please scroll to the bottom on how to install it and make a back up of your CFG folder.
 You can always refer to the config by opening it in a text editor like notepad++. There is described almost anything you will need and how it works.
 
+FULL version
+=======
+
 The config is written to take the most advantage out of my PC with a moderate graphical sacrifice, it
 consists of multiple layers and a great deal of features. It may be unstable on some machines and I can't guarantee that you are not going to get crashes and stability issues on CPU's with less than 4 cores. The config is based around in-game customizability, proper use of hardware resources, AIO packaging and gaining advantage over the enemy. 
 
@@ -55,6 +58,11 @@ Using meb's benchmark 1 demo with 341.44 Nvidia drivers; lo: -novid -console  -w
 I get constant 150 fps in competitive servers almost everywhere with small drops on some middles (~138-144 fps), but the game doesn't choke on itself.
 In valve pubs I get around ~120-150 fps with no serious drops.
 
+The CORE version.
+=========
+
+This is the core upon the config was written. Most of the features and binds are removed leaving you with only the performance part of the config. Some cvars were changed and it seems to be more stable on some 2 core PCs.
+
 The REWORKED version.
 =========
 
@@ -66,12 +74,14 @@ Installation
 
 Download the master ZIP file or copy RAW text of your desired config and drag and drop your .cfg file in:
 "Steam\steamapps\common\Team Fortress 2\tf\custom\my_custom_files\cfg\autoexec.cfg"
+Remember to rename your desired config to autoexec.cfg. Do not paste eg:autoexec_CORE.cfg
 
 Optional: Make sure to make this file READ-ONLY to prevent any changes in the settings of this config.
 
 Paste surfaceproperties.txt in /custom/my_custom_files/scripts.
 
-If you have any other configs created with clugu or some other config generator it is recommended that you download the REWORKED version because some of the features may not be working correctly.
+If you have any other configs created with clugu or some other config generator it is recommended that you download the CORE
+version because some of the features may not be working correctly.
 
 Launch options
 =========
