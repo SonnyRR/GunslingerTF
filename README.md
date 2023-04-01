@@ -1,93 +1,58 @@
-Sonny's TF2 config
-===========
+# 🕹 Sonny's TF2 config
 
-Please scroll to the bottom on how to install it and make a back up of your CFG folder.
-You can always refer to the config by opening it in a text editor like notepad++. There is described almost anything you will need and how it works.
+My personal `Team Fortress 2` configuration. Initially I wrote this config 9 years ago, when I played the game competitively. Then it was mostly based on performance & gameplay improvements. I've decided to rewerite the config for `2023`, but this time focusing only gameplay improvements. Most of the features, part of this config, I've used in `6v6` & `9v9` competitive environments. I also find them useful for casual play as well. Do not expect any significant performance gains
+from this config. You can include your own graphical configurations and extend this config.
 
-Screenshots: https://imgur.com/a/fGAiN
+---
 
-FULL version
-=======
+## 🧩 Features
 
-The config is written to take the most advantage out of my PC with a moderate graphical sacrifice, it
-consists of multiple layers and a great deal of features. It may be unstable on some machines and I can't guarantee that you are not going to get crashes and stability issues on CPU's with less than 4 cores. The config is based around in-game customizability, proper use of hardware resources, AIO packaging and gaining advantage over the enemy. 
-
-Recommended for competitive players aswell as players getting into TF2. 
-
-Here are some of the features:
-
-- Custom server admin mode (Up to as many servers as you wish; list of configs and maps changable on the moment with a simple command such as: blands instead of 2x rcon changelevel cp_badlands / ecp6 instead of !rcon exec etf2l_6v6_5cp; open it for how to use it and more features).
-- In-game memory compactor (Frees up memory; it frees up memory everytime when you move if there is memory to be cleared.)
-- Chat & Voice toggle (ON/OFF)
-- Loadout switcher (Hold ALT+6-9 to switch through the 4 default loadout slots + a hidden 5th one.)
-- 3 different network presets (Chris BAD&GOOD; m0re's and my personal network settings that can be used straight in-game by typing a simple alias in the console.)
-- Netgraph presets.
-- Built in respawn timer. (Very useful in competitive to keep track of medic respawns etc; it shows everytime you hit TAB)
-- Instant FIX button. (Restarts sound, hud; heartbeat and records a temp demo.)
-- Null-movement.
-- Wait Tester (F11).
-- Sourcemod plugin lister (cmd:listplugins)
-- Custom Viewmodel FOV switcher (Hold MOUSE4 and move the scroll up or down in order to increase/decrease VMFOV; very smooth, useful on the go)
-- Security settings (Inspired by Rhapsody's TF2 Config)
-
+- Null-movement
+- Callouts
+- Crouch Jump (CTap)
+- Auto record tournament demos
+- Disabled tutorials
+- Custom viewmodel FOV switcher
+  - Hold `MOUSE4` and move the scroll up or down in order to increase/decrease viewmodel FOV
+- Loadout switcher
+  - Hold `ALT+6-9` to switch through the 4 default loadout slots + a hidden 5th one
+- Custom server admin mode
+  - Up to as many servers as you wish. list of configs and maps changable on the moment with a simple command such as: `blands` instead of 2x `rcon changelevel cp_badlands` / `ecp6` instead of `!rcon exec etf2l_6v6_5cp`; open it for how to use it and more features
+- Micspam loopback script
+- Chat & Voice toggles
+- In-game memory compactor
+  - Frees up memory
+- 4 different network presets
+  - Chris' Bad
+  - Chris' Good
+  - m0re
+  - Mine (Default)
+- Netgraph presets
+- Built in respawn timer
+  - Useful in competitive to keep track of medic respawns etc, it shows everytime you hit `TAB`
+- Instant `FIX` button.
+  - Restarts sound, hud, heartbeat and records a temp demo
+- Wait Tester (`F11`)
+- Sourcemod plugin lister (listplugins)
+- Offline Jumping
+  - Provide 3 teleports (save/tp)
+  - Health Regen
+- Numpad class switcher
 
 Custom Binds:
 
-- "F2" = Reloads the config.
-- "/" = Toggles your viewmodels on/off. 
-- "F11" = Checks if wait is enabled on the server.
-- Holding down "F1" = All in one fix it button.
-- Holding down "Mouse4" and moving the scroll wheel up and down = Viewmodel FOV switcher.
-- "END" = Suicide.
-- "Pause" = Pauses the game(Does not work on all keyboards).
-- "1-9" = Switches classes on the numpad.
-- "Keypad ENTER" = 1st Press: Turns OFF Text Chat. 2nd Press: Turns OFF Voice Chat. 3rd Press: Toggles ON Text And Voice Chat.
-- Hold "ALT+6-9" to switch through the 4 default loadout slots + a hidden 5th one.
+- `F2` = Reloads the config
+- `/` = Toggles your viewmodels on/off
+- `F11` = Checks if wait is enabled on the server
+- Holding down `F1` = All in one fix it button
+- Holding down `MOUSE4` and moving the scroll wheel up and down = Viewmodel FOV switcher
+- `END` = Suicide
+- `Pause` = Pauses the game (does not work on all keyboards)
+- `1-9` = Switches classes on the numpad
+- `Keypad ENTER` = 1st Press: Turns OFF Text Chat. 2nd Press: Turns OFF Voice Chat. 3rd Press: Toggles ON Text And Voice Chat.
+- Hold `ALT+6-9` to switch through the 4 default loadout slots + a hidden 5th one.
 
-Startup time may be slow so don't worry the game is preloading its necessary files. 
-I am looking for general feedback and hopefully, if there is enough interest I will be making more changes and improvements.
-
-Here are some benchmarks:
-  >FULL Version
-
-- CPU: Intel Core 2 Quad Q6600 overclocked  to 2.80 GHz; standart 2 fan cooling
-- GPU: Nvidia GeForce GTS250 DK Edition 1 GB DDR3 
-- RAM: 2x2 A-Data (Unknown MhZ)
-- HDD: Recycled 500 GB Hitachi drive
-- OS: Win 7 Ultimate x64
-
-2639 frames 38.561 seconds 78.44 fps (14.61 ms/f) 2.761 fps variability.
-Using meb's benchmark 1 demo with 341.44 Nvidia drivers; lo: -novid -console  -w 1280 -h 1024.
-
-  >CORE Version
-  
-Laptop Fujitsu Lifebook AH544
-- CPU: Intel Core i7-4702MQ 3.20 GhZ
-- GPU: NVIDIA GeForce GT 720M (2GB DDR3)
-- RAM: 1x 8GB DDR3, 1600Mhz
-- HDD: 1TB
-- OS: Win 7 Ultimate x64
-
-2639 frames 38.561 seconds 102.28 fps (2.18 ms/f) 2.369 fps variability.
-Using meb's benchmark 1 demo; lo: -novid -console -dxlevel 81.
-
-
-I get constant 150 fps in competitive servers almost everywhere with small drops on some middles (~138-144 fps), but the game doesn't choke on itself.
-In valve pubs I get around ~120-150 fps with no serious drops.
-
-The CORE version.
-=========
-
-This is the core upon the config was written. Most of the features and binds are removed leaving you with only the performance part of the config. Some cvars were changed and it seems to be more stable on some 2 core PCs.
-
-The REWORKED version.
-=========
-
-This is a modification of the main config that removes some useless binds and replaces them with console commands(aliases).
-There are no major features removed and there is no performance loss. For now this has its own version in the near future it may be changed in the main config.
-
-Installation
-=========
+## 🔧 Installation
 
 Download the master ZIP file or copy RAW text of your desired config and drag and drop your .cfg file in:
 "Steam\steamapps\common\Team Fortress 2\tf\custom\my_custom_files\cfg\autoexec.cfg"
@@ -100,12 +65,11 @@ Paste surfaceproperties.txt in /custom/my_custom_files/scripts.
 If you have any other configs created with clugu or some other config generator it is recommended that you download the CORE
 version because some of the features may not be working correctly.
 
-Launch options
-=========
+## 🛩 Launch options
 
 If you want the most of your machine use -dxlevel 81 otherwise use 95.
 
--novid -console  -w XXXX -h XXXX -dxlevel XX
+-novid -console -w XXXX -h XXXX -dxlevel XX
   
   > It is recommended that you remove dxlevel after the first start. It is known to cause crashes on some systems.
 
