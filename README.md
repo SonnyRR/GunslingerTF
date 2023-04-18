@@ -1,15 +1,16 @@
 # 🕹 Sonny's TF2 config
 
-My personal `Team Fortress 2` configuration. Initially I wrote this config 9 years ago, when I played the game competitively. Then it was mostly based on performance & gameplay improvements. I've decided to rewerite the config for `2023`, but this time focusing only gameplay improvements. Most of the features, part of this config, I've used in `6v6` & `9v9` competitive environments. I also find them useful for casual play as well. Do not expect any significant performance gains
-from this config. You can include your own graphical configurations and extend this config.
+My personal `Team Fortress 2` configuration. I wrote this config 9 years ago, when I played the game competitively at the `European TF2 League`. Then it was mostly based on performance & gameplay improvements. I've decided to rewerite the config for `2023`, but this time focusing only on gameplay improvements. Most of the features, part of this config, I've used in `6v6` & `9v9` competitive environments. I also find them useful for casual play as well. Do **not** expect any significant performance gains
+from this config, although it contains some optimizations. You can include your own graphical configurations and extend this config.
 
 ---
 
 ## 🧩 Features
 
 - Null-movement
-- Callouts
+- Callouts (🚧 WIP)
 - Crouch Jump (CTap)
+  - 💡 You'll need explicitly execute this script in your `soldier.cfg` file. In addition to that you'll have to rebind `MOUSE2` in every other class config
 - Auto record tournament demos
 - Disabled tutorials
 - Custom viewmodel FOV switcher
@@ -34,46 +35,40 @@ from this config. You can include your own graphical configurations and extend t
   - Restarts sound, hud, heartbeat and records a temp demo
 - Wait Tester (`F11`)
 - Sourcemod plugin lister (listplugins)
-- Offline Jumping
+- Offline Jumping (🚧 WIP)
   - Provide 3 teleports (save/tp)
   - Health Regen
 - Numpad class switcher
 
-Custom Binds:
+### Custom Binds:
 
-- `F2` = Reloads the config
-- `/` = Toggles your viewmodels on/off
-- `F11` = Checks if wait is enabled on the server
-- Holding down `F1` = All in one fix it button
-- Holding down `MOUSE4` and moving the scroll wheel up and down = Viewmodel FOV switcher
-- `END` = Suicide
-- `Pause` = Pauses the game (does not work on all keyboards)
-- `1-9` = Switches classes on the numpad
-- `Keypad ENTER` = 1st Press: Turns OFF Text Chat. 2nd Press: Turns OFF Voice Chat. 3rd Press: Toggles ON Text And Voice Chat.
-- Hold `ALT+6-9` to switch through the 4 default loadout slots + a hidden 5th one.
+| Key | Action |
+|-----|--------|
+|  `F2 ` |   Reloads the config     |
+|  `/`   |   Toggles your viewmodels on/off     |
+|  `F11` |   Checks if wait is enabled on the server     |
+|  `F1` (Hold) |   All in one fix it button     |
+|  `MOUSE4` (Hold) + `MWHEELUP` / `MWHEELDOWN` |   Viewmodel FOV switcher     |
+|  `ALT` (Hold) + `6-0` (Non-numpad keys) |  switch through the 4 default loadout slots + a hidden 5th one   |
+|  `END` |   Suicide    |
+|  `TAB` |   Scoreboard, NET Graph, RED+BLU respawn times (when tournament mode is enabled) & map time left    |
+|  `Numpad 1-9` |   Switches between the nine classes  |
+|  `Numpad ENTER` |   1st Press: Turns OFF Text Chat. 2nd Press: Turns OFF Voice Chat. 3rd Press: Toggles ON Text And Voice Chat     |
+|  `Pause` |   Pauses the game (does not work on all keyboards)     |
 
 ## 🔧 Installation
 
-Download the master ZIP file or copy RAW text of your desired config and drag and drop your .cfg file in:
-"Steam\steamapps\common\Team Fortress 2\tf\custom\my_custom_files\cfg\autoexec.cfg"
-Remember to rename your desired config to autoexec.cfg. Do not paste eg:autoexec_CORE.cfg
+1. Download the master `ZIP` file or clone the repository.
+2. Copy the contents of the artifact in the following directory: `\steamapps\common\Team Fortress 2\tf\custom\my_custom_files\cfg\`
+3. 💡 **Optional:** Make the files & directories READ-ONLY to prevent any changes in the settings of this config.
+4. Paste surfaceproperties.txt in `\custom\my_custom_files\scripts`.
 
-Optional: Make sure to make this file READ-ONLY to prevent any changes in the settings of this config.
-
-Paste surfaceproperties.txt in /custom/my_custom_files/scripts.
-
-If you have any other configs created with clugu or some other config generator it is recommended that you download the CORE
-version because some of the features may not be working correctly.
+❗ If you have any other configs created with `clugu` or some other config generator it is recommended that you remove all `*.cfg` files and reset all `cvars` via `steam://runsafe/440`
 
 ## 🛩 Launch options
 
-If you want the most of your machine use -dxlevel 81 otherwise use 95.
+`-novid -high -console -w XXXX -h XXXX -dxlevel XX`
 
--novid -console -w XXXX -h XXXX -dxlevel XX
-  
-  > It is recommended that you remove dxlevel after the first start. It is known to cause crashes on some systems.
+💡 If you want the most of your machine use `-dxlevel 81` otherwise use `-dxlevel 95`.
 
-Where XXXX insert a resolution 1x/2x/3x lower than your native one, it helps performance a lot.
-
-These are the launch options that I have the most success with. Feel free to add your own or refer to the config itself for more options.
-
+💭Where `XXXX` insert a resolution 1x/2x/3x lower than your native one, it can help performance.
