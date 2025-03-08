@@ -1,9 +1,8 @@
 # 🕹 Sonny's TF2 config
 
-My personal `Team Fortress 2` configuration. I wrote this config 9 years ago, when I played the game competitively at the `European TF2 League`. Then it was mostly based on performance & gameplay improvements. I've decided to rewerite the config for `2023`, but this time focusing only on gameplay improvements. Most of the features, part of this config, I've used in `6v6` & `9v9` competitive environments. I also find them useful for casual play as well. Do **not** expect any significant performance gains
-from this config, although it contains some optimizations. You can include your own graphical configurations and extend this config.
+My personal `Team Fortress 2` configuration. I wrote this config between 2012 - 2015, when I played the game competitively at the [European TF2 League](https://etf2l.org). The config is primarily intended for competitive play and I've used in `6v6` & `9v9` competitive tournaments. The majority of features are also useful for casual play. Do **not** expect any significant performance gains from this config, although it contains some optimizations. You can include your own graphical configurations and extend it.
 
-> 🚧 This config doesn't support the new x64 bit TF2 client. It was developed, tested and used with the old x32 bit one.
+> 🚧 This config doesn't support the new x64 bit TF2 client. It was developed, tested and used with the old x32 bit one **more than 10 years ago**.
 
 ---
 
